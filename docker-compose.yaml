@@ -5,4 +5,4 @@ services:
    ports:
     - '8081:8080'
    volumes:
-    - '/mnt/sample/game-of-life/gameoflife-web/target:/usr/local/tomcat/webapps/'
+    - '/home/vikrant/wars:/usr/local/tomcat/webapps/'
